@@ -1,4 +1,4 @@
----
+
 
 # Pesquisa: Criação de G-code com Pausas para Troca de Cor
 
@@ -8,7 +8,7 @@
 
 **Data:** 01/07/2026
 
----
+
 
 ## 1. Objetivo
 
