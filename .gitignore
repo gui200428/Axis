@@ -1,0 +1,18 @@
+.venv/
+.vscode/
+.idea/
+dist/
+build/
+*.spec
+
+# Caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos gerados pela máquina/software Axis
+*.gcode
+*.nc
+
+# Arquivos de sistema operacional
+.DS_Store
