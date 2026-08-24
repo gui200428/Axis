@@ -1,0 +1,2 @@
+from resources.processamento_de_imagem.aba_processamento_de_imagem import AbaProcessamentoDeImagem
+from resources.processamento_de_imagem.logica_processamento_de_imagem import *

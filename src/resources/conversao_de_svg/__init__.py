@@ -1,0 +1,2 @@
+from resources.conversao_de_svg.aba_conversao_de_svg import AbaConversaoDeSvg
+from resources.conversao_de_svg.logica_conversao_de_svg import *
