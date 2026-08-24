@@ -1,5 +1,5 @@
 <p align="left">
-<img src="./assets/imgs/Logo.jpeg" alt="Axis CNC" width="300">
+<img src="./assets/imgs/logo.jpeg" alt="Axis CNC" width="300">
 </p>
 
 Um projeto de uma máquina CNC de 3 eixos, desenvolvida com foco em baixo custo e acessibilidade.
@@ -28,7 +28,7 @@ A principal característica do projeto Axis é seu software customizado que tran
 
 | **Entrada** | **Processamento** | **Resultado** |
 |-------------|-------------------|---------------|
-| <img src="./assets/imgs/Luna.jpeg" alt="Imagem Original" width="300"> | <img src="./assets/imgs/Processamento.png" alt="Preview Software" width="300"> | <img src="./assets/imgs/Desenho-1.png" alt="Resultado Final" width="300"> |
+| <img src="./assets/imgs/foto_cachorro_exemplo_readme.jpeg" alt="Imagem Original" width="300"> | <img src="./assets/imgs/print_interface_processamento_readme.png" alt="Preview Software" width="300"> | <img src="./assets/imgs/desenho_cachorro_finalizado_exemplo_readme.png" alt="Resultado Final" width="300"> |
 | **Imagem Digital** | **Interface Axis** | **Desenho Físico** |
 | Arquivo de entrada (PNG/JPG/JPEG) | Vetorização e preview em tempo real | Produto final executado pela CNC |
 
@@ -43,7 +43,7 @@ A seguir, uma galeria com outros trabalhos e testes realizados com a máquina, d
 ### 4.1 Logo do Projeto
 
 <p align="center">
-  <img src="./assets/imgs/Desenho-2.png" alt="Logo do Projeto" width="600">
+  <img src="./assets/imgs/desenho_2.png" alt="Logo do Projeto" width="600">
   <br>
   <br>
   <em>Figura 1: Nesta imagem, é possivel observar o nivel de detalhamento alcançado pelo projeto.</em>
@@ -52,7 +52,7 @@ A seguir, uma galeria com outros trabalhos e testes realizados com a máquina, d
 ### 4.2 Desenho de animal
 
 <p align="center">
-  <img src="./assets/imgs/Desenho-1.png" alt="Desenho de Animal" width="600">
+  <img src="./assets/imgs/desenho_cachorro_finalizado_exemplo_readme.png" alt="Desenho de Animal" width="600">
   <br>
   <em>Figura 3: Desenho da cachorra Luna.</em>
 </p>
@@ -60,7 +60,7 @@ A seguir, uma galeria com outros trabalhos e testes realizados com a máquina, d
 ### 4.3 Desenho de pessoas
 
 <p align="center">
-  <img src="./assets/imgs/Desenho-3.png" alt="Desenho de Pessoas" width="600">
+  <img src="./assets/imgs/desenho_3.png" alt="Desenho de Pessoas" width="600">
   <br>
   <em>Figura 4: Toda a equipe de desenvolvimento do projeto.</em>
 </p>
@@ -69,7 +69,7 @@ A seguir, uma galeria com outros trabalhos e testes realizados com a máquina, d
 ### 4.4 Ilustração  do projeto anterior
 
 <p align="center">
-  <img src="./assets/imgs/Desenho-4.png" alt="Ilustração do Projeto Anterior" width="600">
+  <img src="./assets/imgs/desenho_4.png" alt="Ilustração do Projeto Anterior" width="600">
   <br>
   <em>Figura 5: Ilustração do projeto anterior, uma mão robótica.</em>
 </p>
@@ -77,7 +77,7 @@ A seguir, uma galeria com outros trabalhos e testes realizados com a máquina, d
 ### 4.5 Desenho de ambiente
 
 <p align="center">
-  <img src="./assets/imgs/Desenho-5.png" alt="Desenho de Ambiente" width="600">
+  <img src="./assets/imgs/desenho_5.png" alt="Desenho de Ambiente" width="600">
   <br>
   <em>Figura 6: Desenho focado na perspectiva.</em>
 </p>
