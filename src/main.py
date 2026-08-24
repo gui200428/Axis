@@ -43,6 +43,7 @@ def iniciar_interface_grafica(
 
     widget_abas = QTabWidget()
     janela_principal.setCentralWidget(widget_abas)
+    janela_principal.setMinimumSize(950, 600)
 
     lista_de_abas = [
         ("Controle da Máquina", AbaControleDaMaquina()),
@@ -59,5 +60,5 @@ def iniciar_interface_grafica(
 
 if __name__ == "__main__":
     titulo_janela = "Janela Principal Axis"
-    iniciar_interface_grafica(width=800, height=500, title=titulo_janela)
+    iniciar_interface_grafica(width=1150, height=720, title=titulo_janela)
 
