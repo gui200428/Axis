@@ -1,0 +1,2 @@
+from resources.controle_da_maquina.aba_controle_da_maquina import AbaControleDaMaquina
+from resources.controle_da_maquina.logica_controle_da_maquina import *
