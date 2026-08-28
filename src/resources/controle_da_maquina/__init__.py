@@ -1,2 +1,3 @@
 from resources.controle_da_maquina.aba_controle_da_maquina import AbaControleDaMaquina
-from resources.controle_da_maquina.logica_controle_da_maquina import *
+from resources.controle_da_maquina.logica_controle_da_maquina import ControladorGrbl
+from resources.controle_da_maquina.editor_gcode import EditorGcode

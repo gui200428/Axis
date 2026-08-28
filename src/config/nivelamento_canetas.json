@@ -1,0 +1,1467 @@
+{
+  "nivelamento_ativo": true,
+  "canetas": [
+    {
+      "id_caneta": 1,
+      "nome": "Preto",
+      "cor_hex": "#0f172a",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": false,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 20.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 28.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 26.75,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 22.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 30.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 4,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 274.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 4,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 274.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 4,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 274.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 4,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 274.0,
+          "z": 25.0,
+          "calibrado": false
+        }
+      ]
+    },
+    {
+      "id_caneta": 2,
+      "nome": "Azul",
+      "cor_hex": "#2563eb",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 23.8,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    },
+    {
+      "id_caneta": 3,
+      "nome": "Vermelho",
+      "cor_hex": "#ef4444",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    },
+    {
+      "id_caneta": 4,
+      "nome": "Verde",
+      "cor_hex": "#10b981",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    },
+    {
+      "id_caneta": 5,
+      "nome": "Amarelo",
+      "cor_hex": "#eab308",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    },
+    {
+      "id_caneta": 6,
+      "nome": "Laranja",
+      "cor_hex": "#f97316",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    },
+    {
+      "id_caneta": 7,
+      "nome": "Roxo",
+      "cor_hex": "#a855f7",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": false,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 25.0,
+          "calibrado": false
+        }
+      ]
+    },
+    {
+      "id_caneta": 8,
+      "nome": "Rosa",
+      "cor_hex": "#ec4899",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    },
+    {
+      "id_caneta": 9,
+      "nome": "Marrom",
+      "cor_hex": "#854d0e",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    },
+    {
+      "id_caneta": 10,
+      "nome": "Ciano",
+      "cor_hex": "#06b6d4",
+      "num_linhas": 5,
+      "num_pontos_por_linha": 4,
+      "calibrado": true,
+      "distancia_teste_traco": 10.0,
+      "feed_teste_traco": 1000,
+      "z_up": -4.0,
+      "z_down": 25.0,
+      "z_seguro": -4.0,
+      "pontos": [
+        {
+          "linha": 0,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 0,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 35.0,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 1,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 94.75,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 2,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 154.5,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 0,
+          "x": 36.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 1,
+          "x": 92.333,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 2,
+          "x": 148.667,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        },
+        {
+          "linha": 3,
+          "coluna": 3,
+          "x": 205.0,
+          "y": 214.25,
+          "z": 0.0,
+          "calibrado": true
+        }
+      ]
+    }
+  ]
+}
