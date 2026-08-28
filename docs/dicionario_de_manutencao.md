@@ -48,7 +48,7 @@ docs/
 ├── pesquisa/                       # Pesquisas realizadas dentro do projeto seguindo o modelo `pesquisa.md`
 ├── templates/                      # Onde os modelos são guardados para a padronização de documentos 
 ├── tutoriais/                      # Tutoriais necessário para certas coisas
-├── `dicionario_de_manutencao.md´   # Esse arquivo, apenas ele deve ficar na raiz dessa fasta para fácil localização
+├── dicionario_de_manutencao.md     # Esse arquivo, apenas ele deve ficar na raiz dessa pasta para fácil localização
 ```
 
 ### 2.3. `src/`
@@ -56,11 +56,12 @@ Contém todo o código fonte do projeto com os seguintes diretorios abaixo
 
 ```text
 src/
+├── config/             # Arquivos de persistência e configurações JSON (ex: `canetas_plotter.json`)
 ├── utils/              # Funções auxiliares e simples de uso geral (ex: `formatador_de_texto.py`)
 ├── resources/          # Modulos principais com regras de negócios (ex: `conversor_de_imagem_para_g-code.py`)
-├── `main.py`           # O orquestrador do programa
+├── main.py             # O orquestrador do programa
 ```
-**OBS:** Como essa é a pasta que mais vai ter dentro do projetom, ela é volátil, portanto sempre deve manter atualizado essa documentação caso algo mude, e antes de mudar, converse com TODOS os membros do time.
+**OBS:** Como essa é a pasta que mais vai ter alterações dentro do projeto, ela é volátil, portanto sempre deve manter atualizado essa documentação caso algo mude, e antes de mudar, converse com TODOS os membros do time.
 
 ---
 
@@ -70,7 +71,7 @@ Para a parte de desenvolvimento, as seguintes regras são obrigatórias para nã
 
 ### 3.1. Nomenclatura de Variáveis
 * As variáveis devem seguir o padrão `snake_case` explicado no tópico **1.1**
-* Os nomes devem ser descritiveis, não se deve abreviar as variaveis. O argumento de que "Dá trabalho para digitar" é invalido devido ao auto-complete das IDEs.
+* Os nomes devem ser descritivos, não se deve abreviar as variáveis. O argumento de que "Dá trabalho para digitar" é inválido devido ao auto-complete das IDEs.
 * **Variáveis Ruins:**
     * img
     * c
@@ -81,7 +82,7 @@ Para a parte de desenvolvimento, as seguintes regras são obrigatórias para nã
     * x_atual
 
 ### 3.2. Nomenclatura de Funções
-* As funções devem seguir o padrão `snake_case` explicadop no tópico **1.1**
+* As funções devem seguir o padrão `snake_case` explicado no tópico **1.1**
 * O nome de uma função deve representar uma ação
 * As funções devem ser o mais genérica possível
 * As funções devem possuir Docstrings
@@ -95,7 +96,7 @@ Para a parte de desenvolvimento, as seguintes regras são obrigatórias para nã
     ```
     * **Função Boa:**
     ```python
-        def converter_imagem_para_escala_cinza(imagen_referencia: list) -> list:
+        def converter_imagem_para_escala_cinza(imagem_referencia: list) -> list:
             """
                 Converte a matriz de uma imagem colorida para escala de cinza.
                 Args:
@@ -117,7 +118,7 @@ Para manter a organização do fluxo de trabalho em equipe, será utilizado o **
 
 ### 4.1. Padronização de Issues
 Todas tarefas ou bug deve ser registrado como uma issue no GitHub projects antes de ser desenvolvido.
-A issue deve descrever claramento e sem ambiguidade o que precisa ser feito, o contexto da tarefa e o critérios de aceitação.
+A issue deve descrever claramente e sem ambiguidade o que precisa ser feito, o contexto da tarefa e os critérios de aceitação.
 
 ### 4.2. Nomenclatura de Branches
 O nome da branch deve referenciar a issue que está resolvendo, indicando o tipo de alteração e seguindo o padrão abaixo
@@ -128,7 +129,7 @@ Se recomenda utilizar os seguintes tipos
     * `feat`: Nova funcionalidade ou recurso
     * `fix`: Correção de bug ou erro
     * `update`: Atualização, refatoração ou mudança de contexto
-    * `docs`: Inclusão ou alteração de documentaçaõ
+    * `docs`: Inclusão ou alteração de documentação
 
 **Exemplos:**
   * `docs_10_pesquisa_sobre_CMYK`
@@ -139,9 +140,9 @@ Se recomenda utilizar os seguintes tipos
 
 ## 5. Documentação e Manutenção de Scripts
 
-Para garantir a continuidade do projeto, **Todo script independente criado na pasra `src/` deve possuir uma documentação de manutenção**
+Para garantir a continuidade do projeto, **Todo script independente criado na pasta `src/` deve possuir uma documentação de manutenção**
 A documentação deve conter:
     * **Objetivo do Script:** O que o Script faz de forma resumida
-    * **Dependências:** Modulos e bibliotecas externas necessárioas
-    * **Guia de Alteração:** Onde um desenvolver deve mexer se quiser alterar lógicas cruciais
-    * **Possiveis Falhas:** Erros mapeados e como consertá-los caso o código quebre no futuro 
+    * **Dependências:** Módulos e bibliotecas externas necessárias
+    * **Guia de Alteração:** Onde um desenvolvedor deve mexer se quiser alterar lógicas cruciais
+    * **Possíveis Falhas:** Erros mapeados e como consertá-los caso o código quebre no futuro 

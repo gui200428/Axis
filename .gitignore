@@ -16,3 +16,9 @@ __pycache__/
 
 # Arquivos de sistema operacional
 .DS_Store
+
+# Sincronizacao Syncthing
+.stfolder/
+.stignore
+.stversions/
+syncthing-*.txt

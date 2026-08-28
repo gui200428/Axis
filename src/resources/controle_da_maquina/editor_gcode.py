@@ -5,7 +5,10 @@ de linha ativa durante o envio para o GRBL.
 
 from PySide6.QtWidgets import QPlainTextEdit, QWidget, QTextEdit
 from PySide6.QtCore import Qt, QRect, QSize, Slot
-from PySide6.QtGui import QColor, QPainter, QTextFormat, QTextCursor
+from PySide6.QtGui import (
+    QColor, QPainter, QTextFormat, QTextCursor,
+    QPaintEvent, QResizeEvent
+)
 
 
 class AreaNumerosLinha(QWidget):
@@ -34,12 +37,12 @@ class AreaNumerosLinha(QWidget):
         """
         return QSize(self._editor.calcular_largura_area_numeros(), 0)
 
-    def paintEvent(self, evento) -> None:
+    def paintEvent(self, evento: QPaintEvent) -> None:
         """
         Delega a pintura dos números de linha para o editor.
 
         Args:
-            evento: Evento de pintura do Qt.
+            evento (QPaintEvent): Evento de pintura do Qt.
         """
         self._editor.pintar_area_numeros(evento)
 
@@ -51,11 +54,11 @@ class EditorGcode(QPlainTextEdit):
     enviada para o GRBL durante a execução.
     """
 
-    COR_FUNDO_NUMERO = QColor("#2b2b2b")
-    COR_TEXTO_NUMERO = QColor("#858585")
-    COR_LINHA_CURSOR = QColor("#2d2d3d")
-    COR_LINHA_ENVIANDO = QColor("#1a3a1a")
-    COR_NUMERO_ENVIANDO = QColor("#4ec94e")
+    COR_FUNDO_NUMERO = QColor("#1a1a30")
+    COR_TEXTO_NUMERO = QColor("#6a6a82")
+    COR_LINHA_CURSOR = QColor("#252545")
+    COR_LINHA_ENVIANDO = QColor("#1a3a2a")
+    COR_NUMERO_ENVIANDO = QColor("#4ade80")
 
     def __init__(self, parent: QWidget = None) -> None:
         """
@@ -76,16 +79,7 @@ class EditorGcode(QPlainTextEdit):
         self._atualizar_largura_area_numeros()
         self._destacar_linha_atual()
 
-        self.setStyleSheet(
-            "QPlainTextEdit {"
-            "  font-family: 'Courier New', monospace;"
-            "  font-size: 12px;"
-            "  background-color: #1e1e1e;"
-            "  color: #d4d4d4;"
-            "  selection-background-color: #264f78;"
-            "  border: 1px solid #3c3c3c;"
-            "}"
-        )
+        # Estilo herdado do tema global (QPlainTextEdit) — nenhum override necessário
         self.setTabStopDistance(28)
 
     def calcular_largura_area_numeros(self) -> int:
@@ -101,12 +95,12 @@ class EditorGcode(QPlainTextEdit):
         largura = 10 + self.fontMetrics().horizontalAdvance("9") * digitos
         return largura
 
-    def resizeEvent(self, evento) -> None:
+    def resizeEvent(self, evento: QResizeEvent) -> None:
         """
         Reposiciona a área de números ao redimensionar o editor.
 
         Args:
-            evento: Evento de redimensionamento.
+            evento (QResizeEvent): Evento de redimensionamento.
         """
         super().resizeEvent(evento)
         retangulo_conteudo = self.contentsRect()
@@ -118,13 +112,13 @@ class EditorGcode(QPlainTextEdit):
         )
         self._area_numeros.setGeometry(retangulo_numeros)
 
-    def pintar_area_numeros(self, evento) -> None:
+    def pintar_area_numeros(self, evento: QPaintEvent) -> None:
         """
         Renderiza os números de linha na área lateral.
         Destaca o número da linha sendo enviada em verde.
 
         Args:
-            evento: Evento de pintura.
+            evento (QPaintEvent): Evento de pintura.
         """
         pintor = QPainter(self._area_numeros)
         pintor.fillRect(evento.rect(), self.COR_FUNDO_NUMERO)
@@ -170,6 +164,9 @@ class EditorGcode(QPlainTextEdit):
         Args:
             indice_linha (int): Índice da linha (0-based). Use -1 para limpar.
         """
+        if indice_linha == self._indice_linha_enviando:
+            return
+
         self._indice_linha_enviando = indice_linha
         self._destacar_linha_atual()
         self._area_numeros.update()

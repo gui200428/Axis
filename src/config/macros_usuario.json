@@ -1,0 +1,82 @@
+[
+  {
+    "id": "homing_seguro",
+    "nome": "🏠 Homing Seguro",
+    "descricao": "Eleva o eixo Z e executa o ciclo de homing completo em todos os eixos.",
+    "gcode": "; === HOMING SEGURO ===\nG90 ; Coordenadas absolutas\nG21 ; Milímetros\n$H ; Ciclo de Homing GRBL\nG10 L20 P1 X0 Y0 Z0 ; Definir origem\nG0 Z15 F2000 ; Elevar Z seguro\n",
+    "categoria": "Sistema",
+    "comando_gcode": "HOME"
+  },
+  {
+    "id": "park_plotter",
+    "nome": "🅿️ Estacionar Plotter",
+    "descricao": "Eleva a caneta e move o cabeçote para o canto seguro de espera.",
+    "gcode": "; === ESTACIONAR MÁQUINA ===\nG90\nG0 Z20 F2000 ; Subir Z\nG0 X0 Y200 F4000 ; Mover para o fundo\n",
+    "categoria": "Movimento",
+    "comando_gcode": "PARK"
+  },
+  {
+    "id": "ponto_troca",
+    "nome": "🔄 Ponto de Troca Rápida",
+    "descricao": "Move o cabeçote para o centro da área de troca de canetas.",
+    "gcode": "; === PONTO DE TROCA ===\nG90\nG0 Z15 F2500\nG0 X150 Y180 F3500\n",
+    "categoria": "Canetas",
+    "comando_gcode": "PONTO_TROCA"
+  },
+  {
+    "id": "limpar_caneta",
+    "nome": "🧹 Limpeza / Rabisco",
+    "descricao": "Executa pequenos círculos de teste para desentupir e testar o fluxo da tinta.",
+    "gcode": "; === TESTE DE FLUXO / LIMPEZA ===\nG91 ; Coordenadas relativas\nG1 Z-5 F500 ; Baixar caneta\nG2 X10 Y0 I5 J0 F1500 ; Círculo 1\nG2 X-10 Y0 I-5 J0 F1500 ; Círculo 2\nG0 Z5 F2000 ; Levantar caneta\nG90 ; Voltar para absolutas\n",
+    "categoria": "Canetas",
+    "comando_gcode": "LIMPAR_CANETA"
+  },
+  {
+    "id": "teste_10_cores",
+    "nome": "🎨 Teste das 10 Cores",
+    "descricao": "Gera um traço reto de demonstração de 50mm para testar a caneta atual.",
+    "gcode": "; === TRAÇO DE TESTE DA CANETA ===\nG90\nG0 Z5 F2000\nG0 X50 Y50 F3000\nG1 Z0 F800 ; Caneta no papel\nG1 X100 Y50 F1200 ; Traço de 50mm\nG0 Z5 F2000 ; Levantar caneta\n",
+    "categoria": "Canetas",
+    "comando_gcode": "TESTE_10_CORES"
+  },
+  {
+    "id": "elevar_z",
+    "nome": "⬆️ Elevar Eixo Z (+15mm)",
+    "descricao": "Eleva a caneta imediatamente em 15mm para segurança.",
+    "gcode": "G91\nG0 Z15 F2000\nG90\n",
+    "categoria": "Movimento",
+    "comando_gcode": "ELEVAR_Z"
+  },
+  {
+    "id": "pen_down",
+    "nome": "⬇ Abaixar Caneta",
+    "descricao": "Abaixa a caneta ativa suavemente até a altura de contato com auto-nivelamento compensado.",
+    "gcode": "; === ABAIXAR CANETA (PEN DOWN) ===\nPEN_DOWN\n",
+    "categoria": "Canetas",
+    "comando_gcode": "PEN_DOWN"
+  },
+  {
+    "id": "pen_up",
+    "nome": "⬆ Levantar Caneta",
+    "descricao": "Eleva a caneta ativa para a altura segura de ar (Z-Up).",
+    "gcode": "; === LEVANTAR CANETA (PEN UP) ===\nPEN_UP\n",
+    "categoria": "Canetas",
+    "comando_gcode": "PEN_UP"
+  },
+  {
+    "id": "pen_hop",
+    "nome": "⇪ Salto / Hop Caneta",
+    "descricao": "Eleva a caneta apenas 2mm (PEN_HOP) para troca rápida de traço na escrita sem subir o caminho todo.",
+    "gcode": "; === SALTO INTERMEDIÁRIO DA CANETA (PEN HOP) ===\nPEN_HOP\n",
+    "categoria": "Canetas",
+    "comando_gcode": "PEN_HOP"
+  },
+  {
+    "id": "teste_nivelamento",
+    "nome": "🎯 Teste de Nivelamento",
+    "descricao": "Executa um traço diagonal de ponta a ponta para validar a oscilação do Z e o auto-nivelamento.",
+    "gcode": "; === TESTE DE AUTO-NIVELAMENTO DA MESA ===\nG90 ; Coordenadas absolutas\nG21 ; Milímetros\nPEN_UP\nG0 X50 Y50 F3000 ; Início da área de desenho\nPEN_DOWN ; Abaixa com compensação da malha\nG1 X220 Y220 F1500 ; Traço diagonal cruzando a mesa\nPEN_UP ; Eleva com segurança\nG0 X50 Y50 F3500 ; Retorna ao ponto de partida\n",
+    "categoria": "Canetas",
+    "comando_gcode": "TESTE_NIVELAMENTO"
+  }
+]

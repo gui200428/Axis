@@ -4,7 +4,7 @@
 
 **Responsáveis:** Higor Robert Barbist e Vitor Ronald Barbist
 
-**Branch:** `pesquisa/gcode-troca-cor`
+**Branch:** `docs_08_pesquisa_gcode_troca_de_cor`
 
 **Data:** 01/07/2026
 
@@ -30,29 +30,26 @@ A versão v3 do Axis busca centralizar todo o processo de geração de G-code de
 * A máquina utiliza GRBL. O envio de comandos via serial permite que o software do Axis detecte instruções de interrupção no fluxo de dados para pausar a máquina, mover o cabeçote para uma posição segura e aguardar a autorização do usuário.
 * Estrutura base de configuração no `plotter_config.toml` já testada:
 ```toml
-[gwrite.ender3_plotter]
+[gwrite.custom_plotter]
 unit = "mm"
-offset_x = 0
-offset_y = 35
+offset_x = 36.0
+offset_y = 35.0
 document_start = """G21 ; Define unidades em mm
-G90 ; Posicionamento absoluto
-G28 ; Faz o home de todos os eixos
-M107 ; Desliga ventoinha
-G01 Z31.0000 F420 ; Sobe o Z para deslocamento inicial seguro (zalto + margem)
+PEN_UP ; Garante caneta levantada
 """
-layer_start = """
-G01 Z31.0000 F420 ; Sobe a caneta
-G01 X0.000 Y200.000 F9000 ; Move para a posição de troca
-M0 Troque a caneta e pressione o botao ; Pausa a impressora
+layer_start = "(Start Layer)\n"
+line_start = "(Start Block)\n"
+segment_first = """PEN_UP
+G01 X{x:.4f} Y{y:.4f} F9000
+PEN_DOWN
 """
-segment = """G01 X{x:.4f} Y{y:.4f} F9000\n"""
-line_end = """G01 Z27.0000 F420\n"""
+segment = "G01 X{x:.4f} Y{y:.4f} F9000\n"
+line_end = "PEN_UP\n"
 document_end = """
-G01 Z46.0000 F420
-G01 X0.0000 Y200.0000 F9000
+PEN_UP
+G01 X36.0000 Y274.0000 F9000
 M2"""
 invert_y = true
-
 ```
 
 
